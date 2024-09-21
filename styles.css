@@ -1,0 +1,30 @@
+/* Asegurarse que el body ocupe toda la pantalla */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Flexbox para estructurar la página */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Flex-grow para que el contenido principal llene el espacio restante */
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Estilos del footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    position: relative;
+}
